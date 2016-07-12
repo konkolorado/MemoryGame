@@ -1,0 +1,96 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="hu.ait.android.uriel.memorygame.HighScoreActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/highscores_description"
+            style="@style/Font"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/textviewshape_brown"
+            android:gravity="center"
+            android:text="@string/highscores_description" />
+
+        <TextView
+            android:id="@+id/higscores_easy_tv"
+            style="@style/Font"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/buttonshape_blue"
+            android:gravity="center"
+            android:text="@string/highscores_easy" />
+
+        <ListView
+            android:id="@+id/high_scores_easy"
+            android:layout_width="325dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:divider="#0000CC"
+            android:dividerHeight="0.1dp"
+            android:gravity="center">
+        </ListView>
+
+        <TextView
+            android:id="@+id/higscores_medium_tv"
+            style="@style/Font"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonshape_green"
+            android:gravity="center"
+            android:text="@string/highscores_medium" />
+
+        <ListView
+            android:id="@+id/high_scores_medium"
+            android:layout_width="325dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:divider="#0000CC"
+            android:dividerHeight="0.1dp">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/higscores_difficult_tv"
+            style="@style/Font"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonshape_lightblue"
+            android:gravity="center"
+            android:text="@string/highscores_difficult" />
+
+        <ListView
+            android:id="@+id/high_scores_difficult"
+            android:layout_width="325dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="25dp"
+            android:divider="#0000CC"
+            android:dividerHeight="0.1dp">
+        </ListView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/textviewshape_brown" />
+
+
+    </LinearLayout>
+</ScrollView>

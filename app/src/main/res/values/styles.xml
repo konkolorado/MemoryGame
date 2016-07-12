@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/Grey</item>
+        <item name="colorAccent">@color/Blue</item>
+
+        <item name="android:windowBackground">@color/White</item>
+        <item name="android:colorBackground">@color/White</item>
+
+        <item name="android:buttonStyle">@style/ButtonLook</item>
+    </style>
+
+    <!-- Base application text theme -->
+    <style name="Font" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Base Button style -->
+    <style name="ButtonLook" parent="android:Widget.Button">
+        <item name="android:textAppearance">@style/Font</item>
+    </style>
+
+    <!-- Base EditText style -->
+    <style name="EditTextLook" parent="android:Widget.EditText">
+        <item name="android:textAppearance">@style/Font</item>
+    </style>
+
+    <!-- Base TextView style -->
+    <style name="TextViewLook" parent="android:Widget.TextView">
+        <item name="android:textAppearance">@style/Font</item>
+        <item name="android:textColorHint">@color/Black</item>
+    </style>
+
+    <!-- Base ScrollView style -->
+    <style name="ScrollViewLook" parent="android:Widget.ScrollView">
+        <item name="android:textAppearance">@style/Font</item>
+    </style>
+
+    <!-- Base Dialog style -->
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/Brown</item>
+    </style>
+
+
+</resources>

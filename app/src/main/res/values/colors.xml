@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="Green">#8AC15A</color>
+    <color name="BabyGreen">#add38b</color>
+    <color name="DarkBlue">#02658D</color>
+    <color name="BabyDarkBlue">#4d93af</color>
+    <color name="Blue">#9ED0D7</color>
+    <color name="BabyBlue">#bbdee3</color>
+    <color name="Brown">#C5B28F</color>
+    <color name="BabyBrown">#d6c9b0</color>
+
+    <color name="Creme">#F2EBD2</color>
+    <color name="Grey">#cccccc</color>
+    <color name="Black">#252525</color>
+    <color name="White">#F6EEED</color>
+
+    <color name="Red">#CD3A3E</color>
+    <color name="BabyRed">#dc7577</color>
+    <color name="Orange">#cd803a</color>
+    <color name="BabyOrange">#dca675</color>
+    <color name="Yellow">#cdca3a</color>
+    <color name="BabyYellow">#dcd975</color>
+</resources>

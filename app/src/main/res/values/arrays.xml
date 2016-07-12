@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="genders_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>None of your business</item>
+        <item>Does it matter?</item>
+        <item>Human Being</item>
+    </string-array>
+
+    <string-array name="cards_array">
+        <item>Angry Birds</item>
+        <item>Soccer</item>
+    </string-array>
+</resources>

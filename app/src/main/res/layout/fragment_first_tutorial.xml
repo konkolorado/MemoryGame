@@ -1,0 +1,55 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hu.ait.android.uriel.memorygame.FirstTutorialFragment">
+
+    <ImageView
+        android:id="@+id/image_mainscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/game_mainscreen_copy"/>
+
+    <ImageView
+        android:id="@+id/image_diffscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/game_choose_difficulty_copy"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/finger_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/finger_click"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="235dp"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/finger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/finger"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-212dp"/>
+
+    <TextView
+        android:id="@+id/start_new_game"
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/buttonshape_red"
+        style="@style/Font"
+        android:gravity="center"
+        android:text="@string/tutorial_frag1_startgame"
+        android:visibility="invisible"/>
+
+</RelativeLayout>
